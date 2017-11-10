@@ -160,6 +160,6 @@ def ship_hit(ai_settings, stats, screen, ship, aliens, bullets):
         ship.center_ship()
         update_screen(ai_settings,screen,ship,aliens,bullets)
         #暂停
-        sleep(0.5)
+        sleep(1)
     else:
         stats.game_active = False
